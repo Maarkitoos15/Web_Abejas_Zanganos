@@ -1,0 +1,116 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Esto asegura que el header cubra toda la pantalla */
+    background-color: #ff8801;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header{
+
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+.header1{
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0.7%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.listatotal{
+
+    background-color: #FFF700;
+    margin: 4%;
+    padding: 4%;
+    height: auto;
+    border-radius: 1vh;
+    
+}
+
+.parrafo1{
+
+    margin: auto;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    width: 90%;
+    margin-bottom: 2%;
+}
+
+.productos{
+
+    padding-top: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20%;
+
+}
+
+.producto1, .producto2{
+
+    background-color: #FFF700;
+    margin: 1%;
+    padding: 4%;
+    height: auto;
+    border-radius: 1vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: center;
+}
+
+#img1{
+
+    padding-top: 3%;
+    padding-bottom: 2%;
+}
+
+#p1{
+
+    text-align: center;
+    justify-content: center;
+    width: 320px;
+}
+
+footer{
+
+    margin: 0;
+    padding: 1%;
+    background-color: white;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 1em;
+
+}
+
+footer button{
+
+
+    border: none;
+    background-color: white;
+    
+}
+
+footer button :hover{
+
+    background-color: rgb(221, 221, 122);
+}
+
+footer button img{
+
+
+    width: 100px;
+}
