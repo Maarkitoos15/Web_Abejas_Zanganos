@@ -1,0 +1,464 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%; /* Esto asegura que el header cubra toda la pantalla */
+    background-color: #ff8801;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+header{
+
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+.header1{
+
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0.7%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.listatotal{
+
+    background-color: #c7c5c5;
+    margin: 4%;
+    padding: 4%;
+    height: auto;
+    border-radius: 1vh;
+    
+}
+
+table {
+    border-radius: 10%;
+
+    width: 100%;
+    table-layout: fixed; 
+    
+}
+
+td {
+    width: 50%; 
+    text-align: center;
+   
+}
+
+th {
+    background-color: #f58b13;
+}
+
+button {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+
+
+footer{
+
+    margin: 0;
+    padding: 1%;
+    background-color: white;
+    margin-right: 10%;
+    margin-left: 10%;
+    border-radius: 1em;
+
+}
+
+footer button{
+
+
+    border: none;
+    background-color: white;
+    
+}
+
+footer button :hover{
+
+    background-color: rgb(221, 221, 122);
+}
+
+footer button img{
+
+
+    width: 100px;
+}
+
+.iconoimg{
+width: 100px;
+height: auto ;
+
+
+}
+
+.facebook {
+    width: 120px;
+    height: 105px;
+    background-color: #3b5998;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.185),
+   0px 3px 3px rgba(255, 255, 255, 0.178) inset,
+   0px -3px 3px rgba(0, 0, 0, 0.281) inset;
+    transition: all .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-bottom: 3px;
+  }
+  
+  .facebook::before {
+    background-color: transparent;
+    content: "f";
+    font-size: 1.6em;
+    font-weight: 700;
+    color: white;
+    z-index: 5;
+    transition: all .3s;
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  }
+  
+  .facebook::after {
+    content: "acebook";
+    background-color: transparent;
+    font-size: 0;
+    opacity: 0;
+    font-weight: 700;
+    color: white;
+    z-index: 5;
+    transition: all .3s;
+    transform: translateX(60px);
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  }
+  
+  .facebook:hover {
+    width: 160px;
+    border-radius: 30px;
+  }
+  
+  .facebook:hover::after {
+    opacity: 1;
+    font-size: 1.6em;
+    transform: translateX(0px);
+  }
+  
+  .facebook:hover .shine {
+    transform: translate(-70px ,10px);
+    }
+    
+    .whatsapp {
+        width: 120px;
+        height: 105px;
+        background-color: #2fca2a;
+        border: none;
+        border-radius: 50%;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.185),
+       0px 3px 3px rgba(255, 255, 255, 0.178) inset,
+       0px -3px 3px rgba(0, 0, 0, 0.281) inset;
+        transition: all .3s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        padding-bottom: 3px;
+      }
+      
+      .whatsapp::before {
+        background-color: transparent;
+        content: "w";
+        font-size: 1.6em;
+        font-weight: 700;
+        color: white;
+        z-index: 5;
+        transition: all .3s;
+        font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      }
+      
+      .whatsapp::after {
+        content: "hatsapp";
+        background-color: transparent;
+        font-size: 0;
+        opacity: 0;
+        font-weight: 700;
+        color: white;
+        z-index: 5;
+        transition: all .3s;
+        transform: translateX(60px);
+        font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      }
+      
+      .whatsapp:hover {
+        width: 160px;
+        border-radius: 30px;
+      }
+      
+      .whatsapp:hover::after {
+        opacity: 1;
+        font-size: 1.6em;
+        transform: translateX(0px);
+      }
+      
+      .whatsapp:hover .shine {
+        transform: translate(-70px ,10px);
+        }
+
+        .instagram {
+            width: 120px;
+            height: 105px;
+            background-color: #ff2bed;
+            border: none;
+            border-radius: 50%;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.185),
+           0px 3px 3px rgba(255, 255, 255, 0.178) inset,
+           0px -3px 3px rgba(0, 0, 0, 0.281) inset;
+            transition: all .3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            padding-bottom: 3px;
+          }
+          
+          .instagram::before {
+            background-color: transparent;
+            content: "i";
+            font-size: 1.6em;
+            font-weight: 700;
+            color: white;
+            z-index: 5;
+            transition: all .3s;
+            font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+          }
+          
+          .instagram::after {
+            content: "nstagram";
+            background-color: transparent;
+            font-size: 0;
+            opacity: 0;
+            font-weight: 700;
+            color: white;
+            z-index: 5;
+            transition: all .3s;
+            transform: translateX(60px);
+            font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+          }
+          
+          .instagram:hover {
+            width: 160px;
+            border-radius: 30px;
+          }
+          
+          .instagram:hover::after {
+            opacity: 1;
+            font-size: 1.6em;
+            transform: translateX(0px);
+          }
+          
+          .instagram:hover .shine {
+            transform: translate(-70px ,10px);
+            }
+
+  .gmail {
+    width: 120px;
+    height: 105px;
+    background-color: #ff2e2e;
+    border: none;
+    border-radius: 50%;
+    position: relative;
+    z-index: 1;
+    overflow: hidden;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.185),
+   0px 3px 3px rgba(255, 255, 255, 0.178) inset,
+   0px -3px 3px rgba(0, 0, 0, 0.281) inset;
+    transition: all .3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding-bottom: 3px;
+  }
+  
+  .gmail::before {
+    background-color: transparent;
+    content: "g";
+    font-size: 1.6em;
+    font-weight: 700;
+    color: white;
+    z-index: 5;
+    transition: all .3s;
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  }
+  
+  .gmail::after {
+    content: "mail";
+    background-color: transparent;
+    font-size: 0;
+    opacity: 0;
+    font-weight: 700;
+    color: white;
+    z-index: 5;
+    transition: all .3s;
+    transform: translateX(60px);
+    font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+  }
+  
+  .gmail:hover {
+    width: 160px;
+    border-radius: 30px;
+  }
+  
+  .gmail:hover::after {
+    opacity: 1;
+    font-size: 1.6em;
+    transform: translateX(0px);
+  }
+  
+  .gmail:hover .shine {
+    transform: translate(-70px ,10px);
+    }
+
+
+    .telefono {
+        width: 120px;
+        height: 105px;
+        background-color: #d3b11c;
+        border: none;
+        border-radius: 50%;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.185),
+       0px 3px 3px rgba(255, 255, 255, 0.178) inset,
+       0px -3px 3px rgba(0, 0, 0, 0.281) inset;
+        transition: all .3s;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        cursor: pointer;
+        padding-bottom: 3px;
+      }
+      
+      .telefono::before {
+        background-color: transparent;
+        content: "t";
+        font-size: 1.6em;
+        font-weight: 700;
+        color: white;
+        z-index: 5;
+        transition: all .3s;
+        font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      }
+      
+      .telefono::after {
+        content: "elefono";
+        background-color: transparent;
+        font-size: 0;
+        opacity: 0;
+        font-weight: 700;
+        color: white;
+        z-index: 5;
+        transition: all .3s;
+        transform: translateX(60px);
+        font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+      }
+      
+      .telefono:hover {
+        width: 160px;
+        border-radius: 30px;
+      }
+      
+      .telefono:hover::after {
+        opacity: 1;
+        font-size: 1.6em;
+        transform: translateX(0px);
+      }
+      
+      .telefono:hover .shine {
+        transform: translate(-70px ,10px);
+        }
+
+        .informacion {
+            width: 120px;
+            height: 105px;
+            background-color: #f58b13;
+            border: none;
+            border-radius: 50%;
+            position: relative;
+            z-index: 1;
+            overflow: hidden;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.185),
+           0px 3px 3px rgba(255, 255, 255, 0.178) inset,
+           0px -3px 3px rgba(0, 0, 0, 0.281) inset;
+            transition: all .3s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor: pointer;
+            padding-bottom: 3px;
+          }
+          
+          .informacion::before {
+            background-color: transparent;
+            content: "i";
+            font-size: 1.6em;
+            font-weight: 700;
+            color: white;
+            z-index: 5;
+            transition: all .3s;
+            font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+          }
+          
+          .informacion::after {
+            content: "nformacion";
+            background-color: transparent;
+            font-size: 0;
+            opacity: 0;
+            font-weight: 700;
+            color: white;
+            z-index: 5;
+            transition: all .3s;
+            transform: translateX(60px);
+            font-family: Whitney, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+          }
+          
+          .informacion:hover {
+            width: 160px;
+            border-radius: 30px;
+          }
+          
+          .informacion:hover::after {
+            opacity: 1;
+            font-size: 1.6em;
+            transform: translateX(0px);
+          }
+          
+          .informacion:hover .shine {
+            transform: translate(-70px ,10px);
+            }
+      
+        .abeja5 {
+
+            width: 70%;
+            height: auto;
+        }
